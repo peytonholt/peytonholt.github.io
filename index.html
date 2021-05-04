@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Southeastern Cancer Care</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css">
+        <link href="styles/styles.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+        <script>
+            $(function() {
+              $('#menu').slicknav();
+            });
+        </script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="grid-column-layout">
+            <header class="header">
+                <img src="logo.jpeg" alt="logo" class="logo">
+                <nav>
+                    <ul id="menu" class="menu">
+                        <li class="menuoptions"><a href="#">About Us</a></li>
+                        <li class="menuoptions"><a href="#">Pictures</a></li>
+                        <li class="menuoptions"><a href="#">Other Resources</a></li>
+                        <li class="menuoptions"><a href="#">My Account</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="sidebar">
+                <h2 class="upcoming">Upcoming Events</h2>
+                <p class="event">October 2, 2021: 5K (Timed)</p>
+                <p class="event">October 2, 2021: 5K (Untimed)</p>
+                <p class="event">October 9, 2021: 1-Mile Fun Run</p>
+                <p class="event">Please continue checking back as we periodically update this list to include run times and more fundraising events.</p>
+            </div>
+            <div class="main">
+                <div class="box1">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h2>DONATE</h2>
+                    <p class="please">Please help us out by donating money.</p>
+                    <button class="learn" type="learn">Learn More</button>
+                </div>
+                <div class="box2">
+                    <i class="fas fa-hand-holding-heart"></i>
+                    <h2>VOLUNTEER</h2>
+                    <p class="please">Please help us out by donating your time.</p>
+                    <button class="learn" type="learn">Learn More</button>
+                </div>
+            </div>
+            <div class="fillout">
+                <form action=" " method="post">
+                    <fieldset>
+                        <p>Please fill out the form below for more information in monthy newsletters.</p>
+                        <div>
+                            <label for="full_name">Full Name</label><br />
+                            <input type="text" name="fullname" id="full_name" required />
+                        </div>
+                        <div>
+                            <label for="email">Email Address</label>
+                            <input id="email" type="email" name="email" required />
+                        </div>
+                        <button class="submit" type="submit">Submit</button>
+                    </fieldset>
+                </form>
+            </div>
+            <footer class="footer">
+                <h4>Contact Information</h4>
+                <p class="contact">919-587-9056</p>
+                <p class="contact">lparrish@cancersmoc.com</p>
+            </footer>
+        </div>
+    </body>
+</html>
